@@ -4,6 +4,8 @@
 // Your task is to find and fix the bugs so that the function correctly returns the expected messages.
 
 function getDayMessage(day) {
+    let message; // Declare message variable at the start
+    
     switch (day) {
         case "Monday":
         case "Tuesday":
@@ -11,9 +13,10 @@ function getDayMessage(day) {
         case "Thursday":
         case "Friday":
             message = "It's a weekday.";
+            break; // Added break statement
         case "Saturday":
         case "Sunday":
-            let message = "It's the weekend!";
+            message = "It's the weekend!";
             break;
         default:
             message = "Invalid day.";
@@ -22,6 +25,7 @@ function getDayMessage(day) {
 }
 
 // Test cases
+
 console.log(getDayMessage("Monday"));   // Expected: "It's a weekday."
 console.log(getDayMessage("Sunday"));   // Expected: "It's the weekend!"
 console.log(getDayMessage("Funday"));   // Expected: "Invalid day."
