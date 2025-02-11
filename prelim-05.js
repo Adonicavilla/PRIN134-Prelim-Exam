@@ -13,7 +13,7 @@ function getDayMessage(day) {
         case "Thursday":
         case "Friday":
             message = "It's a weekday.";
-            break; // Added break statement
+            break; 
         case "Saturday":
         case "Sunday":
             message = "It's the weekend!";

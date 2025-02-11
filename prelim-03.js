@@ -16,11 +16,7 @@ function filterPositiveNumbers(numbers) {
 }
 
 // Test cases
-// console.log(filterPositiveNumbers([3, -1, 7, 0, -5, 10])); // Expected: [3, 7, 10]
-// console.log(filterPositiveNumbers([-2, -8, -1]));          // Expected: []
-// console.log(filterPositiveNumbers([5, 15, 25]));           // Expected: [5, 15, 25]
-// console.log(filterPositiveNumbers([]));                    // Expected: []
-console.log(filterPositiveNumbers([3, -1, 7, 0, -5, 10])); // [3, 7, 10]
-console.log(filterPositiveNumbers([-2, -8, -1]));          // []
-console.log(filterPositiveNumbers([5, 15, 25]));           // [5, 15, 25]
-console.log(filterPositiveNumbers([]));                    // []
+console.log(filterPositiveNumbers([3, -1, 7, 0, -5, 10])); // Expected: [3, 7, 10]
+console.log(filterPositiveNumbers([-2, -8, -1]));          // Expected: []
+console.log(filterPositiveNumbers([5, 15, 25]));           // Expected: [5, 15, 25]
+console.log(filterPositiveNumbers([]));                    // Expected: []
